@@ -1,22 +1,24 @@
+
+/* Initial Margin & Padding  0 For Whole Website*/
 *{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
 }
 
-/* Font Style */
+/* Font Style : Inter,sens-serif */
 .inter{
      font-family: "Inter", sans-serif;
      font-optical-sizing: auto;
-
 }
 
-/* Header Part : Navbar  */
+/* Header Part : Navbar Header */
 header{
      background-color: white;
      padding-top: 16px;
 }
   
+/* Navbar Container : Navbar */
 nav{
      width: 83%;
      max-width: 1600px;
@@ -27,7 +29,7 @@ nav{
      margin-bottom: 16px;
 }
 
-/* Navbar logo */
+/* Navbar : logo */
 nav .logo{
      width: 139px;
      height: 60px;
@@ -36,7 +38,7 @@ nav .logo{
 
 }
 
-/* Nav Menu items - ul */
+/* Navbar Menu items : ul */
 nav .menu{
      display: flex; 
      list-style-type:none;
@@ -44,12 +46,13 @@ nav .menu{
      gap: 32px;
 }
 
+/* Navbar : Logo Image */
 nav .logo img{
     height : 100%;
     display :block;
 }
 
-/* nav menu item anchor - a */
+/* navbar menu items - a tag */
 nav .menu a{
      text-decoration: none;
      color:#000000;
@@ -57,7 +60,7 @@ nav .menu a{
      font-weight: 500;
 }
 
-/* nav Button */
+/* navbar Reuseable : Button */
 .btn{
      background-color:#469165;
      color: white;
@@ -75,7 +78,7 @@ nav .menu a{
      color:white;
 }
 
-/* Banner Section Start From Here : Banner */
+/* Banner Section  : Banner */
 
 #banner {
      width: 100%;
@@ -83,11 +86,12 @@ nav .menu a{
      margin-bottom: 80px;
 }
 
-/* Banner-container part */
+/* Banner Section : Banner-container part */
 .banner-container{
      position: relative;
 }
 
+/* Banner Section : early Access Part */
 #banner .early-access{
      display: inline-flex;
      align-items: center;
@@ -102,6 +106,7 @@ nav .menu a{
      margin-bottom: 16px;
 }
 
+/* Banner Section : Early Access Image Icon */
 #banner .early-access img{
      width: 15px;
      height: 15px;
@@ -109,11 +114,13 @@ nav .menu a{
      display: block;
 }
 
+/* Banner Section : Banner Image Part */
 .banner-container img{
      width: 100%;
      height: 700px;
 }
 
+/* Banner Section : Middle Container Part */
 .banner-content{
      position: absolute;
      text-align: center;
@@ -123,11 +130,13 @@ nav .menu a{
      max-width: 800px;
 }
 
+/* Banner Section : Banner h1 */
 .banner-content h1{
      font-size: 70px;
      margin-bottom: 16px;
 }
 
+/* Banner Section : Banner p */
 .banner-content p{
      text-align: center;
      font-weight: 300;
@@ -138,6 +147,7 @@ nav .menu a{
 }
 
 
+/* Banner Section : Button -1 */
 .banner-content .banner-btn1{
      background-color: #469165;  
      color: white;  
@@ -148,12 +158,14 @@ nav .menu a{
      border: none;
      margin-right: 16px;
 }
+/* Banner Section : Button-1:hover */
 .banner-content .banner-btn1:hover{
      background-color: #000000;
      color:white;
      border: 1px solid white;
 }
 
+/* Banner Section : Button-2 */
 .banner-content .banner-btn2{
      background-color: transparent;
      border: 1px solid white;
@@ -162,24 +174,28 @@ nav .menu a{
      padding: 14px 16px;
      font-size: 16px;
 }
+/* Banner Section : Button-2:hover */
 .banner-content .banner-btn2:hover {
      background-color:black;
      color: white;
      border: 1px solid white;
 }
  
-/* Not's Dont Fail Part */
+/* Note's Dont Fail Part */
 
+/* Note's Dont Fail Part : main Note  */
  #note {
      padding: 50px 9%;
      text-align: center;
 }
 
+/* Note's Dont Fail Part : Note h2 */
 #note h2{
      font-size: 48px;
      font-weight: 700;
 }
 
+/* Note's Dont Fail Part : Subtitle */
 .subtitle{
      margin-top: 16px;
      color: black;
@@ -187,6 +203,7 @@ nav .menu a{
      margin-inline: auto;
 }
 
+/* Note's Dont Fail Part : Card Part */
 .card{
      align-items: stretch;
      justify-content: center;
@@ -196,6 +213,7 @@ nav .menu a{
      gap: 30px;
 }
 
+/* Note's Dont Fail Part : Card-box */
 .card-box{
      display: flex;
      align-items: center;
@@ -209,6 +227,8 @@ nav .menu a{
      border-radius: 18px;
      box-shadow: 1px 1px 6px 1px rgb(165, 165, 165);
 }
+
+/* Note's Dont Fail Part :  Icon */
 .icon{
      width: 60px;
      height: 60px;
@@ -220,24 +240,27 @@ nav .menu a{
      margin: 0 auto 24px;
 }
 
+/* Note's Dont Fail Part : Icon Image */
 .icon img{
      width: 32px;
      height: 32px;
 }
 
+/* Note's Dont Fail Part :  Card-box h3 */
 .card-box h3{
      font-size: 20px;
      margin-bottom: 12px;
 }
 
+/* Note's Dont Fail Part :  card-box p */
 .card-box p{
      color: #6b7280;
      font-size: 15px;
      line-height: 1.6;
 } 
 
-/* Second Brain Section Star From Here */
 
+/* Second Brain Section */
 #second-brain-main{
      height: 700px;
      width: 1480px;
@@ -245,15 +268,18 @@ nav .menu a{
      padding: 55px;
      border-radius: 20px;
 }
+/* Second Brain Section : Parent */
 #second-brain-main .parent{
      display: flex;
      gap: 80px;   
 }
 
+/* Second Brain Section : child  */
 #second-brain-main .child{
      margin-top: 100px;
 }
 
+/* Second Brain Section : right-Part h5 */
 #second-brain-main .right-part h5{
      color: #469165;
      size: 15px;
@@ -261,6 +287,7 @@ nav .menu a{
      margin-bottom: 15px;
 } 
 
+/* Second Brain Section : right-part h2 */
 #second-brain-main .right-part h2{
      color: #001931;
      font-size: 45px;
@@ -268,6 +295,7 @@ nav .menu a{
      margin-bottom: 15px;
 }
 
+/* Second Brain Section : Right-part p */
 #second-brain-main .right-part p{
    color: #627382;
    font-size: 15px;
@@ -277,11 +305,13 @@ nav .menu a{
    margin-bottom: 40px;
 }
 
+/* Second Brain Section : parent img */
 #second-brain-main .parent img{
      box-shadow: 0px 0px 3px 0px rgb(165, 165, 165);
      border-radius: 10px;
 }
 
+/* Second Brain Section : child-list */
 #second-brain-main .idea-list .child-list{
      display: flex;
      margin: 16px 0;
@@ -299,10 +329,12 @@ nav .menu a{
      padding: 80px 40px;
 }
 
+/* Ready To Think Section : parent */
 #main-container .parent{
      text-align: center;
 }
 
+/* Ready To Think Section : parent h1 */
 #main-container .parent h1{
      color: #001931;
      font-size: 40px;
@@ -310,6 +342,7 @@ nav .menu a{
      margin-bottom: 15px;
 }
 
+/* Ready To Think Section : parent p */
 #main-container .parent p{
      color: #001931;
      font-size: 16px;
@@ -319,6 +352,7 @@ nav .menu a{
      margin-bottom: 24px;
 }
 
+/* Ready To Think Section : parent p2 */
 #main-container .parent .p2{
      margin: 20px auto;
      color: #627382;
@@ -327,17 +361,18 @@ nav .menu a{
      line-height: 20px;
 }
 
-/* Footer Section Start Form Here */
 
+/* Footer Section Start Form Here */
 footer {
      height: 340px;
      margin-top: 150px;
      background-color: #001931;
      color: white;
      width: 100%;
-     /* height: 348px; */
+     /* height : 348px; */
     
 }
+/* Footer Section : top-part */
 footer .top-part{
      padding: 70px 280px 40px;
      display: flex;
@@ -345,17 +380,21 @@ footer .top-part{
      justify-content: space-between;
 }
 
+/* Footer Section : social h4 */
 footer .social h4{
      margin: 0 0 10px;
      font-weight: 500;
      font-size: 20px;
 
 }
+/* Footer Section : Icons class */
 footer .icons{
      display: flex;
      gap: 12px;
 
 }
+
+/* Footer Section : inside icon */
 footer .icon{
    width: 20px;
    height: 20px;
@@ -365,16 +404,18 @@ footer .icon{
    align-items: center;
 }
 
+
+/* Footer Section : Divider line */
 footer .divider{
      height: 1px;
      background: rgba(255, 255, 255, 0.15);
      margin: 50px 250px 0px;
 }
 
+/* Footer Section : Bottom part */
 footer .bottom-part{
      text-align: center;
      padding: 35px 0 25px;
      font-size: 16px;
      color: #627382;
 }
-
